@@ -17,7 +17,6 @@ client = tweepy.Client(consumer_key=consumerKey,
                        access_token_secret=accessSecret,bearer_token=bearerToken)
 
 api = tweepy.API(auth)
-openai.api_key = openAI_API
 
 
 #tweeting and controllings --------------------------------------------------------------
